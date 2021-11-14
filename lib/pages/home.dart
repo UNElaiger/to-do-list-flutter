@@ -25,7 +25,7 @@ class _HomeState extends State<Home> {
     Navigator.of(context).push(
       MaterialPageRoute(builder: (BuildContext context){
         return Scaffold(
-          appBar: AppBar(title: Text('Меню'),
+          appBar: AppBar(title: Text('Меню '),
             backgroundColor: Colors.deepOrange,),
           body: Row(
             children: [
